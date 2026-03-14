@@ -1,4 +1,4 @@
-BMP Image Parser & LZW Compressor
+<h1>BMP Image Parser & LZW Compressor<h1/>
 A Python desktop application for loading, processing, and compressing BMP images using a hand-implemented LZW compression algorithm.
 Features
 
