@@ -1,4 +1,4 @@
-<h1>BMP Image Parser & LZW Compressor<h1/>
+# **BMP Image Parser & LZW Compressor**
 A Python desktop application for loading, processing, and compressing BMP images using a hand-implemented LZW compression algorithm.
 Features
 
@@ -10,11 +10,11 @@ Brightness adjustment via RGB → YUV → RGB conversion
 Nearest-neighbour image scaling
 Displays original and compressed/decompressed images side by side with compression ratio and timing stats
 
-How to Run
+# **How to Run**
 bashpip install pillow
 python main.py
-Implementation Notes
 
+# **Implementation Notes**
 BMP pixel data is stored bottom-to-top per the spec — this is handled during parsing
 LZW dictionary is capped at 2^16 entries to match the 2-byte code storage in the compressed format
 Brightness adjustment is done in YUV colour space to modify luminance independently of chrominance
